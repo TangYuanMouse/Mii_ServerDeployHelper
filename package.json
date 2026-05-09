@@ -1,0 +1,18 @@
+{
+  "name": "mii-server-deploy-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lightweight environment deployment agent runtime for servers.",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "serve": "node dist/app/bootstrap.js",
+    "cli": "node dist/cli/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.3"
+  }
+}
